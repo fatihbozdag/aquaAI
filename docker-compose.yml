@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    # The command to run the CLI with all models
+    command: python main_cli.py --train-data ceyhan_normalize_veri.xlsx --test-data kuzey_ege_test_verisi.xlsx --models all

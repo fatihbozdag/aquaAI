@@ -1,0 +1,12 @@
+numpy>=1.21.0
+pandas>=1.3.0
+PyQt5>=5.15.0
+openpyxl>=3.0.9  # For Excel file support
+matplotlib>=3.4.0
+scikit-learn>=0.24.0
+torch>=1.9.0     # PyTorch for ANFIS
+lightgbm>=3.2.0  # LightGBM model
+shap>=0.39.0     # SHAP değerleri için
+TPOT>=0.11.0     # AutoML için TPOT
+xgboost>=1.5.0   # XGBoost model
+seaborn>=0.11.0  # Enhanced visualizations
